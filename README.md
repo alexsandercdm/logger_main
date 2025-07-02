@@ -7,7 +7,6 @@ Uma biblioteca de logging simples, plug-and-play e estilizada para Deno e Oak.
 ```typescript
 import { Logger, oakLogger } from "[https://deno.land/x/logger_main@v1.0.0/mod.ts](https://deno.land/x/logger_main@v1.0.0/mod.ts)";
 ```
-*(Substitua `loggerMain` pelo nome real do seu módulo)*
 
 ## Uso
 
