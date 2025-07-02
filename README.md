@@ -4,8 +4,6 @@ Uma biblioteca de logging simples, plug-and-play e estilizada para Deno e Oak.
 
 ## Instalação
 
-Importe o `mod.ts` diretamente do `deno.land/x`:
-
 ```typescript
 import { Logger, oakLogger } from "[https://deno.land/x/logger_main@v1.0.0/mod.ts](https://deno.land/x/logger_main@v1.0.0/mod.ts)";
 ```
