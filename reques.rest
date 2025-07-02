@@ -1,0 +1,9 @@
+@baseUrl = http://localhost:8000
+
+GET  {{baseUrl}} HTTP/1.1
+
+###
+GET  {{baseUrl}}/user/1 HTTP/1.1
+
+###
+GET  {{baseUrl}}/error HTTP/1.1
