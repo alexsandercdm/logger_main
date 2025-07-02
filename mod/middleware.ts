@@ -35,7 +35,7 @@ export function oakLogger(logger: Logger): Middleware {
     await next();
     const duration = Date.now() - startTime;
 
-    const ip = ctx.request.ip;
+    const ip = ctx.request.headers.get("x-forwarded-for") || ctx.request.ip;
     const userAgent = ctx.request.headers.get("user-agent") || "-";
 
     const { method, url } = ctx.request;
