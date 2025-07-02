@@ -1,8 +1,8 @@
 // middleware.ts
 
 
-import { colors, Context, Middleware } from "./deps.ts";
-import { Logger } from "./logger.ts";
+import { colors, type Context, type Middleware } from "./deps.ts";
+import type { Logger } from "./logger.ts";
 
 // Função que cria o middleware. Recebe uma instância do nosso logger.
 export function oakLogger(logger: Logger): Middleware {

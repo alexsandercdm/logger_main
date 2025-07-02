@@ -1,5 +1,5 @@
 
-export * as colors from "https://deno.land/std@0.224.0/fmt/colors.ts";
+export * as colors from "jsr:@std/fmt@1/colors";
 
 export {
     Application,
@@ -7,4 +7,4 @@ export {
     type Middleware,
     type Context,
 
-} from "https://deno.land/x/oak@v17.1.4/mod.ts";
+} from "jsr:@oak/oak@^17.1.4";

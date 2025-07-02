@@ -1,8 +1,8 @@
 // dev.ts
 
-import { Application } from "https://deno.land/x/oak@v17.1.4/application.ts";
+import { Application } from "jsr:@oak/oak/application";
 import { Logger, LogLevel } from "./mod/logger.ts";
-import { Router } from "https://deno.land/x/oak@v17.1.4/router.ts";
+import { Router } from "jsr:@oak/oak/router";
 import { oakLogger } from "./mod/middleware.ts";
 
 
